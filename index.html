@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio 99</title>
+    <!-- flaticon (star,location) -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <!-- mail , ph -icon -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <!-- insta-fb-whatsapp icons -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <!-- copyrights-icon -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+
+    <!-- my-style-sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <!-- booking -->
+    <div id="booking-main" class="hidden-main-div">
+
+    </div>
+    <div id="booking" class="hidden-booking">
+        <div class="booking-div hidden-1">
+            <div class="booking-div-input">
+                <h3>Name :</h3>
+                <input type="text">
+            </div>
+            <div class="booking-div-input">
+                <h3>Phone :</h3>
+                <input type="tel">
+            </div>
+            <div class="booking-div-input">
+                <h3>E-Mail :</h3>
+                <input type="email">
+            </div>
+            <div class="booking-div-input" style="justify-content: end;">
+
+                <button type="submit" style="width: 75px; height: 25px;border: none;cursor: pointer; background-color: #291100; color: #F8F0E7;">SEND</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- nav-bar -->
+    <section id="navbar">
+        <div class="nav-brand" style="margin-left: 5%;">
+            <a style="font-family: 'Flatline';font-style: normal; " href="#hero">Studio 99</a>
+        </div>
+        <div class="nav-links">
+            <span>
+                <a href="#about">About Us</a>
+                <hr class="nav-hr">
+            </span>
+            <span>
+                <a href="#commercial"> commercial</a>
+                <hr class="nav-hr">
+            </span>
+            <span>
+                <a href="#residential"> Residential</a>
+                <hr class="nav-hr">
+            </span>
+            <span>
+                <a href="#testimonials"> Testimonials</a>
+                <hr class="nav-hr">
+            </span>
+
+            <span>
+                <a href="#contact"> Contact Us</a>
+                <hr class="nav-hr">
+            </span>
+        </div>
+    </section>
+
+    <!-- hero -->
+    <section id="hero">
+        <div class="hero-div">
+            <div class="hero-content hidden-1">
+                <h1 style="word-spacing: 8px; margin-bottom: 50px; font-size: 38px;
+                text-transform: uppercase;color: #291100;">Transforming Ideas Into <br> Reality</h1>
+                <p style=" margin-bottom: 50px; font-size: 18px; word-spacing: 5px ;line-height: 1.5;">An interior designer draws inspiration from <br>
+                    spaces that have been created by other talented <br> people and gives it his/her personal flair. An
+                    <br> interior designer knows how to take a concept <br> and turn it into reality.</p>
+                <button id="booking-button">Book a Consultation</button>
+
+            </div>
+            <div class="hero-img hidden-2">
+
+                <img class="hero-img-1" src="./images/WhatsApp Image 2023-03-10 at 21.51.26.jpg" alt="">
+                <img class="hero-img-2" src="./images/WhatsApp Image 2023-03-10 at 21.51.29.jpg" alt="">
+                <p>“The essence of interior <br> design will always be about <br> people and how they live.”</p>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- facts -->
+    <section id="facts" >
+
+        <div class="facts-txt hidden-2" style="flex-direction: column;align-items: start;">
+            <h1 style="width: 200px;text-align: right; border-bottom: 5px solid #291100e0; border-radius: 5px; color: #291100B2;font-weight: 500;">SOME</h1>
+            <h1 style="margin-left: 85px;color: #707070;font-weight: 500;">INSTERESTING</h1>
+            <h1 style="margin-left: 85px;color: #291100;font-weight: 500;">FACTS</h1>
+        </div>
+        <div class="facts-nums">
+            <div class="fats-num-divs">
+                <div style="height:50%;">
+                    <h1 class="num-animate num-counter" style="font-size: 70px;color: #291100;">1280</h1>
+                </div>
+                <div>
+                    <p>Finished projects</p>
+                </div>
+            </div>
+            <div class="fats-num-divs">
+                <div style="height:50%;">
+                    <h1 class="num-animate num-counter" style="font-size: 70px;color: #291100;">400</h1>
+                </div>
+                <div>
+                    <p>Happy customers</p>
+                </div>
+            </div>
+            <div class="fats-num-divs">
+                <div style="height:50%;">
+                    <h1 class="num-animate num-counter" style="font-size: 70px;color: #291100;">3123</h1>
+                </div>
+                <div>
+                    <p>Photoshoot & Editing hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <div class="about-div-1">
+            <div class="about-content">
+                <div style="height: 60%;flex-direction: column;justify-content: space-between;align-items: start;">
+                    <h1 class="hidden-h1" style="word-spacing: 10px;">ABOUT US</h1>
+                    <p style="line-height: 1.4;word-spacing: 3px;font-size: 18px;">Studio 99 was born after the fusion of two fundamental principles <br> of architecture and interior designing. LIGHT & SPACE It was further <br> perfected by incorporating SOUL & CHARACTER Each one of our <br> ideas and design-ology has a human touch which is crafted by the <br> requirement and specific need of our client. “No single design fits <br> all, No single design shall be repeated”</p>
+
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="./images/c-d-2.jpg" alt="">
+            </div>
+        </div>
+        <hr style="margin: auto;border: none; border-top: 6px dotted #291100;" width="5%">
+        <div class="about-div-2">
+            <div>
+                <div class="about-d hidden-1" style="width: 75%; height: 100%;justify-content: space-evenly;">
+                    <img class="about-div-2-img-1" src="./images/c-d-3.jpg" alt="">
+                    <p style="width: 60%; font-size: 16px; word-spacing: 3px;line-height: 1.4;">B.Arch graduate from JNAFAU, Hyd. M.Arch, JNAFAU. <br> She heads lead design, execution and has excellent <br> knowledge on space utilization and creative out of <br> the box thinking.</p>
+                </div>
+            </div>
+            <hr style="width: 50%; margin-left: 5%;">
+            <div style="margin-top: 35px;">
+                <div class="about-d hidden-2" style="width: 75%; height: 100%; margin-left: 25%;justify-content: center;">
+                    <p style="margin-left: 20%; font-size: 16px; word-spacing: 3px;line-height: 1.4;">B.Arch graduate from MSRIT, Blr. She heads design <br>    concepts, marketing campaigns and client <br> acquisition while being an integral part of execution, <br> designing and project management</p>
+                    <img class="about-div-2-img-1" src="./images/c-d-3.jpg" alt="" style="margin-left: 8%;">
+                
+                </div>
+                <hr style="width: 50%; margin-left: 47%;">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- commercial -->
+    <section id="commercial">
+        <div class="commercial-text">
+            <h2 style="margin-left: 5%; font-weight: 500; word-spacing: 5px;">Commercial work undertaken in the past
+                includes a <br> restaurant & bar, multiple offices.</h2>
+        </div>
+        <div class="commercial-divs hidden-divs">
+            <div class="col-divs"
+                style="background-image: url(./images/WhatsApp\ Image\ 2023-03-10\ at\ 21.51.26.jpg);">
+                <div class="col-div-txt">
+                    <h4>REVOLT BAR, Jubilee hills</h4>
+
+                </div>
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-2.jpg);">
+                <div class="col-div-txt">
+                    <h4>SUKHIBHAVA, Dilshuknagar</h4>
+
+                </div>
+
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-3.jpg);">
+                <div class="col-div-txt">
+                    <h4>6 th ELMENT, Kothapet</h4>
+
+                </div>
+
+            </div>
+            <div class="col-divs"
+                style="background-image: url(./images/WhatsApp\ Image\ 2023-03-10\ at\ 21.51.26.jpg);">
+                <div class="col-div-txt">
+                    <h4>REVOLT BAR, Jubilee hills</h4>
+
+                </div>
+
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-2.jpg);">
+                <div class="col-div-txt">
+                    <h4>SUKHIBHAVA, Dilshuknagar</h4>
+
+                </div>
+
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-3.jpg);">
+                <div class="col-div-txt">
+                    <h4>6 th ELMENT, Kothapet</h4>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- residential -->
+    <section id="residential">
+        <div class="commercial-text">
+            <h2 style="margin-left: 5%; font-weight: 500; word-spacing: 5px;">
+                Residential projects of all kinds have been undertaken. <br> Large holiday homes.
+            </h2>
+        </div>
+        <div class="commercial-divs hidden-divs">
+            <div class="col-divs" style="background-image: url(./images/c-d-2.jpg);">
+                <div class="col-div-txt">
+
+                </div>
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-2.jpg);">
+                <div class="col-div-txt">
+
+                </div>
+
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-2.jpg);">
+                <div class="col-div-txt">
+
+                </div>
+
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-2.jpg);">
+                <div class="col-div-txt">
+
+                </div>
+
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-2.jpg);">
+                <div class="col-div-txt">
+
+                </div>
+
+            </div>
+            <div class="col-divs" style="background-image: url(./images/c-d-2.jpg);">
+                <div class="col-div-txt">
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- brands -->
+    <section id="brands" style="margin-top: 80px;">
+        <div class="brand-div" style="justify-content: space-between;">
+            <div style="width: 80px; margin-left: 50px;">
+                <img src="./images/thub-logo.png" alt="">
+            </div>
+            <div style=" width: 150px">
+                <img src="./images/flipkart-logo.png" alt="">
+            </div>
+            <div>
+                <img src="./images/dbs-logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- testimonials -->
+    <section id="testimonials">
+
+        <div class="testi-div">
+            <h1 class="hidden-h1" style="text-transform: uppercase; margin-left: 6%; margin-bottom: 50px;">Testimonials</h1>
+            <div class="testi-odd-div hidden-1">
+                <div class="testi-img-div" style="width: 25%; height: 100%;">
+                    <img class="testi-imgs" src="./images/c-d-3.jpg" alt="" style="margin-left: 5%;">
+                    <p>Sarath Kumar</p>
+                    <div>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star" style="opacity: 0.3;"></i>
+                    </div>
+
+                </div>
+                <p style="margin-left: 5%; word-spacing: 3px;line-height: 1.4;">“They really understood what I wanted and how I <br> wanted it to be, not many do it . They have a <br> personal touch in addressing my queries and they <br> have executed my thoughts beautifully”
+                </p>
+            </div>
+            <hr class="testi-odd-hr">
+            <div class="testi-even-div hidden-2">
+                <p style="margin-right: 5%; word-spacing: 3px;line-height: 1.4;">
+                    “We had a limited budget and honestly I don’t know <br> how did they manage to execute it so well. They <br> have done it more than my expectation and well <br> within our timeframe”
+                    
+                </p>
+                <div class="testi-img-div" style="width: 25%; height: 100%;">
+                    <img class="testi-imgs" src="./images/c-d-3.jpg" alt="" style="margin-right: 5%;">
+                    <p>Tariq</p>
+                    <div>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr class="testi-even-hr">
+            <div class="testi-odd-div hidden-1">
+                <div class="testi-img-div" style="width: 25%; height: 100%;">
+                    <img class="testi-imgs" src="./images/c-d-3.jpg" alt="" style="margin-left: 5%;">
+                    <p>Pratap Rao</p>
+                    <div>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star" style="opacity: 0.3;"></i>
+                    </div>
+
+                </div>
+                <p style="margin-left: 5%; word-spacing: 3px;line-height: 1.4;">“After seeing their portfolio, I had given them a <br> free hand to design my residence the best of my <br> liking and they didn’t fail my expectation”
+                </p>
+            </div>
+            <hr class="testi-odd-hr">
+            <div class="testi-even-div hidden-2" >
+                <p style="margin-right: 5%; word-spacing: 3px;line-height: 1.4;">“They really understood what I wanted and how I <br> wanted it to be, not many do it . They have a <br> personal touch in addressing my queries and they <br> have”
+
+                </p>
+                <div class="testi-img-div" style="width: 25%; height: 100%;">
+                    <img class="testi-imgs" src="./images/c-d-3.jpg" alt="" style="margin-right: 5%;">
+                    <p>Varun</p>
+                    <div>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star"></i>
+                        <i class="fi fi-ss-star" style="opacity: 0.3;"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- footer -->
+    <section id="contact">
+        <div class="contact-divs c-d-1" style="margin-right: 30px;">
+            <div class="nav-brand" style="height: 20%; margin-bottom: 5%;color: #291100;">
+                <span style="font-family: 'Flatline';font-style: normal;">Studio 99</span>
+            </div>
+            <div style="height: 80%;width: 100%;">
+                <p >We know that every project is unique, and we work <br> with our clients to develop the ideal design solution <br> for their needs and budget. <br>
+                    We believe in the power of design, and we aim to <br> make innovative and sophisticated designs accessible <br> to all.
+                    </p>
+
+            </div>
+        </div>
+        <div class="contact-divs">
+            <div>
+                <div class="nav-brand" style="margin-bottom: 5%;">
+                    <span style="font-family: 'Flatline';font-style: normal;color: #291100;">Contact us</span>
+                </div>
+                <div class="contact-div-links" style="justify-content: space-between;">
+                    <div style="flex-direction: row;"><i class="fi fi-sr-envelope contact-i c-mail"></i> <p class="c-mail">Studio99.hyd@gmail.com</p></div>
+                    <div style="flex-direction: row;margin: 15px 0;"><i class="fi fi-sr-phone-call contact-i c-ph"></i> <p class="c-ph">9666000083</p></div>
+                    <div style="flex-direction: row;"><i class="fi fi-ss-marker contact-i c-loc"></i> <p class="c-loc">358, Rd Number 8, Vivekananda Nagar, Kukatpally, Hyderabad, Telangana 500072</p></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="contact-divs">
+            <div style="height: 100%;margin-left: 40px;">
+                <div class="nav-brand" style="height: 20%; margin-bottom: 5%;">
+                    <span style="font-family: 'Flatline';font-style: normal;color: #291100;">Social</span>
+                </div>
+                <div class="social-icons" style="flex-direction: row; height: 80%;margin-top: 15px;">
+                    <i class="contact-i fi fi-brands-facebook"></i>
+                    <i class="contact-i fi fi-brands-instagram" style="margin: 0 15px;"></i>
+                    <i class="contact-i fi fi-brands-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="copyrights">
+        <i class="fi fi-rs-copyright"></i>
+        <span>Copyright2023-STUDIO99 | </span>
+        <span>Designed by TeamDipner</span>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script>
+        
+    </script>
+
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
